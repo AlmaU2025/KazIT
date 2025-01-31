@@ -1,5 +1,6 @@
 # KazIT
 
+# Galym 
 
 # Daniyal is the best
 # almau
