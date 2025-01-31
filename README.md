@@ -3,6 +3,7 @@
 # Galym
 # student
 # Beybit LOOOOOOOOOL
+# Beybit added 2 project number 1 project portfolio number 2 project this is sneakers shop
 # Daniyal is the best
 # almau
 
