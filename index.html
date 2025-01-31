@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>Портфолио</title>
+</head>
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">KB</p>
+                <span></span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Главная</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">Обо мне</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Проекты</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Контакты</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn">Скачать резюме <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>KB-Developer</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>Я <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Я подросток, который любит изучать мир программирования и у меня довольно большое сообщество, а именно "CODESPHERED01010"</p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn">Нанять меня</button>
+                        <button class="btn">Скачать резюме <i class="uil uil-file-alt"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><i class="uil uil-instagram"></i></div>
+                        <div class="icon"><i class="uil uil-youtube"></i></div>
+                        <div class="icon"><i class="uil uil-github"></i></div>
+                        <div class="icon"><i class="uil uil-whatsapp"></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="profile.png" alt="">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Прокрутить вниз</p>
+                    </a>
+                </div>
+            </section>
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>Обо мне</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>Мое введение</h3>
+                            <p>Я свободно владею HTML, CSS и JavaScript, а также другими продвинутыми фреймворками и библиотеками, которые позволяют мне реализовывать интерактивные функции.</p>
+                            <div class="about-btn">
+                                <button class="btn">Скачать резюме <i class="uil uil-import"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Backend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Django</span>
+                                <span>Python</span>
+                                
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Базы данных</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>MySQL</span>
+                                <span>Sqlite</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Проекты</h1>
+                </div>
+                    <div class="project-container">
+                     <div onclick="window.location.href=''"class="project-box">
+                                <i class="uil uil-briefcase-alt"></i>
+                                <h3>Завершенные</h3>
+                                <label>20+ Репозиториев на GitHub</label>
+                            </div>
+                        </a>
+                    <div onclick="window.location.href=''"class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Сообщество</h3>
+                        <label>1K+ участников</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Опыт</h3>
+                        <label>1-2 года в программировании</label>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Связаться</h1>
+                    <span>Вы можете задать мне вопросы о программировании</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Найдите меня <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> kazban0v.beybit@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> +706 806-66-36</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Имя">
+                                <input type="text" class="input-field" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea placeholder="Сообщение"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Отправить <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="top-footer">
+                <p>KB-Developer</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Главная</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">Обо мне</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Проекты</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+                <div class="icon"><i class="uil uil-youtube"></i></div>
+                <div class="icon"><i class="uil uil-github"></i></div>
+                <div class="icon"><i class="uil uil-whatsapp"></i></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Авторские права © <a href="#home" style="text-decoration: none;">DzarelDeveloper</a> - Все права защищены</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js.js"></script>
+</body>
+</html>
