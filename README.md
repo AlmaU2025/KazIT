@@ -6,3 +6,5 @@
 
 
 # Syrym is also good
+
+# Adding new line of info from terminal
