@@ -1,6 +1,7 @@
 # KazIT
 
-# Galym 
+# Galym
+# student
 
 # Daniyal is the best
 # almau
